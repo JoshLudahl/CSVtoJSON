@@ -8,6 +8,7 @@ const csvFilePath = 'input.csv';
 const readStream = require('fs').createReadStream(csvFilePath);
 
 //  Create output stream
+//  Streams and creates output.json
 const file = fs.createWriteStream('output.json');
 
 //  Pipe the streams together
